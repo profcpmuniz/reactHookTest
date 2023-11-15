@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
+import  First, {Second, Third} from './Components';
 
 
 function App() {
@@ -31,7 +32,9 @@ function App() {
        <h1>{date}</h1>
        <h1>{age}</h1>
        <button onClick={handle}>Click Here</button>
-        
+        <First></First>
+        <Second></Second>
+        <Third></Third>
       </header>
     </div>
   );
